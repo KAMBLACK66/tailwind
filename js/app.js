@@ -11,12 +11,12 @@ Vue.component('link-cascadia', {
 
 Vue.component('panel-blog', {
     template: `
-        <div class="flex flex-col bg-white transition-shadow duration-300 shadow-lg hover:shadow-2xl rounded-lg">
+        <div class="flex flex-col bg-white dark:bg-black transition-shadow duration-300 shadow-lg hover:shadow-2xl rounded-lg">
             <div>
                 <slot name="image"></slot>
             </div>
 
-            <div class="flex flex-col justify-between border py-6 px-6">
+            <div class="dark:border-gray-900 flex flex-col justify-between border py-6 px-6">
                 <div class="uppercase text-sky-500 tracking-widest">
                     <slot name="type"></slot>
                 </div>
